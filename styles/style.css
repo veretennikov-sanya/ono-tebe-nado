@@ -26,17 +26,18 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-}
-.circle {
-  border: 1px solid #000;
-  border-radius: 50%;
-  height: 7px;
-  width: 7px;
-  margin-top: 10px;
+  list-style: circle;
 }
 
-.header-logo {
-  margin: 0 auto;
+.main-inn {
+  text-decoration: none;
+  list-style: none;
+}
+.lots-inn {
+  text-decoration: underline;
+}
+.about-inn {
+  text-decoration: underline;
 }
 
 .header__logo-image {
@@ -148,10 +149,6 @@ body {
   text-transform: uppercase;
   padding: 12px 32px;
   background-color: transparent;
-}
-
-.button-text {
-  text-decoration: none;
   color: #fff;
 }
 
@@ -252,18 +249,12 @@ body {
 }
 
 .about__logo {
-  display: flex;
-  width: 430px;
-  height: 240px;
-  justify-content: center;
   align-items: center;
-}
-
-.circle-two {
   background: #000;
   clip-path: circle(50%);
   height: 240px;
   width: 240px;
+  margin: 0 95px;
 }
 
 .about__title {
@@ -272,6 +263,7 @@ body {
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
+  padding-top: 100px;
 }
 
 .about__text {
