@@ -59,7 +59,7 @@ body {
 }
 
 .cover {
-  background: url(/ono-tebe-nado/images/cover.jpg) lightgray 50% / cover
+  background: url(../images/cover.jpg) lightgray 50% / cover
     no-repeat;
   max-width: 1440px;
   height: 757px;
@@ -207,21 +207,21 @@ body {
 }
 
 .card_type_film {
-  background: url(/ono-tebe-nado/images/card-lot-01.jpg), lightgray 50%;
+  background: url(../images/card-lot-01.jpg), lightgray 50%;
   background-size: cover;
   background-position: center;
   z-index: 0;
 }
 
 .card_type_book {
-  background: url(/ono-tebe-nado/images/card-lot-02.jpg), lightgray 50%;
+  background: url(../images/card-lot-02.jpg), lightgray 50%;
   background-size: cover;
   background-position: center;
   z-index: 0;
 }
 
 .card_type_picture {
-  background: url(/ono-tebe-nado/images/card-lot-03.jpg), lightgray 50%;
+  background: url(../images/card-lot-03.jpg), lightgray 50%;
   background-size: cover;
   background-position: center;
   z-index: 0;
